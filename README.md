@@ -1,4 +1,7 @@
 # canihasip-rs
+
+[![Build Status](https://travis-ci.com/hugglesfox/canihasip-rs.svg?branch=master)](https://travis-ci.com/hugglesfox/canihasip-rs) 
+
 A [unoffical] rust crate for https://icanhazip.com/
 
 ## Usage
