@@ -1,5 +1,5 @@
 # canihasip-rs
-An [unoffical] rust crate for https://icanhazip.com/
+A [unoffical] rust crate for https://icanhazip.com/
 
 ## Usage
 
