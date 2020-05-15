@@ -1,6 +1,6 @@
 # canihasip-rs
 
-[![Build Status](https://travis-ci.com/hugglesfox/canihasip-rs.svg?branch=master)](https://travis-ci.com/hugglesfox/canihasip-rs)
+[![Build Status](https://travis-ci.com/hugglesfox/canihasip-rs.svg?branch=master)](https://travis-ci.com/hugglesfox/canihasip-rs) ![Crates.io](https://img.shields.io/crates/v/canihazip) [![docs.rs](https://docs.rs/canihazip/badge.svg)](https://docs.rs/canihazip) 
 
 A [unoffical] rust crate for https://icanhazip.com/
 
