@@ -74,6 +74,7 @@ mod tests {
     }
 
     #[test]
+    #[ignore]
     fn test_plz_ipv6() {
         let ip = plz_ipv6().unwrap();
 
