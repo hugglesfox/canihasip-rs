@@ -1,6 +1,6 @@
 [package]
 name = "canihazip"
-version = "2.0.1"
+version = "2.0.2"
 authors = ["Hayden Hughes <hayden@foxes.systems>"]
 edition = "2018"
 description = "A [unoffical] rust library for https://icanhazip.com/"
