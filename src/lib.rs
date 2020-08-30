@@ -15,10 +15,12 @@
 //! ```
 use std::net::{IpAddr, Ipv4Addr, Ipv6Addr};
 
+pub type Error = reqwest::Error;
+
 /// Get your current public IP address.
 ///
 /// Panics if the returned IP is not a valid IP address.
-pub fn plz_ip() -> Result<IpAddr, reqwest::Error> {
+pub fn plz_ip() -> Result<IpAddr, Error> {
     Ok(reqwest::blocking::get("https://icanhazip.com/")?
         .text()?
         .trim()
@@ -29,7 +31,7 @@ pub fn plz_ip() -> Result<IpAddr, reqwest::Error> {
 /// Get your current public IPv4 address.
 ///
 /// Panics if the returned IP is not a valid IPv4 address.
-pub fn plz_ipv4() -> Result<Ipv4Addr, reqwest::Error> {
+pub fn plz_ipv4() -> Result<Ipv4Addr, Error> {
     Ok(reqwest::blocking::get("https://4.icanhazip.com/")?
         .text()?
         .trim()
@@ -41,7 +43,7 @@ pub fn plz_ipv4() -> Result<Ipv4Addr, reqwest::Error> {
 ///
 /// Errors if there is no Ipv6 connectivity.
 /// Panics if the returned IP is not a valid IPv6 address.
-pub fn plz_ipv6() -> Result<Ipv6Addr, reqwest::Error> {
+pub fn plz_ipv6() -> Result<Ipv6Addr, Error> {
     Ok(reqwest::blocking::get("https://6.icanhazip.com/")?
         .text()?
         .trim()
