@@ -1,5 +1,5 @@
 //! # CanIHazIP
-//! CanIHazIP gets your current public ip address using [canihazip](https://canihazip.com)
+//! CanIHazIP gets your current public ip address using [icanhazip](https://icanhazip.com)
 //!
 //! # Example
 //! ```rust
